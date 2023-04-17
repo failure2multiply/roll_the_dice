@@ -1,5 +1,9 @@
+# Simple program to roll the dice and display the result.
+
+# Initial imports
 import random
 
+# ASCI art 
 dice_art = {
     1: ("┌─────────┐",
         "│         │",
@@ -39,6 +43,8 @@ number_of_dice = 0
 print()
 print(" *** Program will roll the dice and display the result. ***")
 
+
+# Main loop :)
 
 while True:
   try:
